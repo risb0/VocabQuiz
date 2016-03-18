@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.risbo.vocabquiz16wi.AddWordFragment">
+
+
+    <EditText
+        android:id="@+id/word"
+        android:hint="Type your word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/defn"
+        android:hint="Type its definition"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_gravity="right"
+        android:id="@+id/addbutton"
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
